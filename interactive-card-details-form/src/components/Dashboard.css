@@ -1,0 +1,63 @@
+body {
+    position: relative;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 100%;
+    height: 900px;
+    background: var(--White, #FFF);
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent horizontal scrollbar */
+  }
+  
+  .side-box {
+    position: fixed;
+    height: 100%;
+    width: 483px;
+    left: 0;
+    top: 0; 
+    background: #21092F;
+    z-index: 1; 
+  }
+  .image-style1 {
+    position: absolute;
+    width: 50px;
+    height: 500px;
+    left: 0px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    border-radius: 657px;
+    opacity: 0.8474;
+    background: #D53AFF;
+    
+    filter: blur(67.95704650878906px);
+  }
+
+  .image-style2 {
+    position: absolute;
+    width: 48px;
+    height: 400px;
+    transform: rotate(45deg);
+    border-radius: 657px;
+    /* opacity: 0.8474; */
+    background: #47A2FF;
+    top:200px;
+    left: 100px;
+    
+    filter: blur(67.95704650878906px);
+  }
+
+  .image-style3 {
+    position: absolute;
+    width: 68px;
+    height: 360px;
+    left: 260px;
+    top: 5px;
+    transform: rotate(45deg);
+    border-radius: 657px;
+    opacity: 0.8474;
+    background: #FF834A;
+    
+    filter: blur(67.95704650878906px);
+  }
+  
+ 
+ 
